@@ -77,5 +77,6 @@
 		<module>cloud-client</module>
 		<module>cloud-feign</module>
 		<module>cloud-config</module>
+		<module>cloudConfigClient</module>
 	</modules>
 </project>
