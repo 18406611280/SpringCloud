@@ -15,9 +15,9 @@ private int num;
 	
 	@RequestMapping("/getMemberList")
 	public List<String> getMember(){
-			num++;
-			System.out.println(num);
-			return feignMember.getMemberList();
+		num++;
+		System.out.println(num);
+		return feignMember.getMemberList();
 	}
 	
 	@RequestMapping("/getName")

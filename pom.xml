@@ -78,5 +78,6 @@
 		<module>cloud-feign</module>
 		<module>cloud-config</module>
 		<module>cloudConfigClient</module>
+		<module>cloud-zuul</module>
 	</modules>
 </project>
