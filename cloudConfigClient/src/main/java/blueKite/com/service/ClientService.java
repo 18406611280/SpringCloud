@@ -7,12 +7,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ClientService {
 	
-	@Value(value = "${userName}")
-	private String username;
+	@Value("${age}")
+	private String age;
 	
-	@RequestMapping("/getName")
-	public String getName() {
-		return username;
+	@Value("${userName}")
+	private String userName;
+	
+	@RequestMapping("/getAge")
+	public String getAge() {
+		return age;
+	}
+	
+	@RequestMapping("/getUserName")
+	public String getUserName() {
+		return userName;
 	}
 
 }
