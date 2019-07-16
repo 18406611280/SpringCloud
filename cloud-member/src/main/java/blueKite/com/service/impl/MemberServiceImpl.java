@@ -16,6 +16,11 @@ public class MemberServiceImpl implements MemberService{
 	@Override
 	@RequestMapping("/getMemberList")
 	public List<String> getMemberList() {
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		List<String> list = new ArrayList<String>();
 		list.add("hongye");
 		list.add("handsome");
